@@ -50,5 +50,8 @@ Esto iniciará el servidor local y el proyecto estará disponible en `http://loc
 
 Una vez que el servidor está en ejecución, visite `http://localhost:5173` en su navegador para comenzar a utilizar la aplicación. Podrá ver un formulario para ingresar los datos del automóvil y una lista de los automóviles que ya han sido ingresados.
 
-
+## Segunda parte prueba:
+en la carpeta `Segunda parte` se encuentran dos archivos script:
+1. creaciontablas: en este se encuentran los scripts necesarios para crear y poblar las tablas.
+2. creacionProcedure: en este se encuentran los script para crear los creacionProcedure
 
