@@ -52,6 +52,7 @@ Una vez que el servidor está en ejecución, visite `http://localhost:5173` en s
 
 ## Segunda parte prueba:
 en la carpeta `Segunda parte` se encuentran dos archivos script:
+1. creacionDatabase: en este se encuentran los scripts necesarios para la base de datos.
 1. creaciontablas: en este se encuentran los scripts necesarios para crear y poblar las tablas.
 2. creacionProcedure: en este se encuentran los script para crear los creacionProcedure
 
