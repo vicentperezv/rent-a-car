@@ -1,20 +1,17 @@
 CREATE TABLE Vendedor (
     VendedorID INT PRIMARY KEY,
     Nombre NVARCHAR(100),
-    -- Puede agregar más campos según sea necesario
 );
 
 CREATE TABLE MarcaAuto (
     MarcaID INT PRIMARY KEY,
     Nombre NVARCHAR(100)
-    -- Puede agregar más campos según sea necesario
 );
 
 CREATE TABLE ModeloAuto (
     ModeloID INT PRIMARY KEY,
     MarcaID INT FOREIGN KEY REFERENCES MarcaAuto(MarcaID),
     Nombre NVARCHAR(100),
-    -- Puede agregar más campos según sea necesario
 );
 
 CREATE TABLE Solicitudes (
@@ -23,12 +20,12 @@ CREATE TABLE Solicitudes (
     ModeloID INT FOREIGN KEY REFERENCES ModeloAuto(ModeloID),
     Fecha DATE,
     Monto MONEY,
-    -- Puede agregar más campos según sea necesario
 );
+
 -- Insertar datos de ejemplo en la tabla Vendedor
 INSERT INTO Vendedor (VendedorID, Nombre) VALUES
-(1, 'Juan Pérez'),
-(2, 'Ana Gómez'),
+(1, 'Juan Perez'),
+(2, 'Ana Gomez'),
 (3, 'Carlos Ruiz');
 
 -- Insertar datos de ejemplo en la tabla MarcaAuto
@@ -52,7 +49,6 @@ INSERT INTO ModeloAuto (ModeloID, MarcaID, Nombre) VALUES
 (9, 5, 'CX-3'),
 (10, 5, 'CX-9');
 
--- Suponiendo que la fecha actual es el 21 de febrero de 2024,
 -- Insertar datos de ejemplo en la tabla Solicitudes
 INSERT INTO Solicitudes (SolicitudID, VendedorID, ModeloID, Fecha, Monto) VALUES
 (1, 1, 1, '2024-02-01', 20000.00),
