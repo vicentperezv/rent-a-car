@@ -1,8 +1,54 @@
-# React + Vite
+# Rent-A-Car
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Rent-A-Car es una prueba técnica implementada con React y Vite. Esta aplicación permite a los usuarios agregar automóviles a la venta, introduciendo detalles como la marca, modelo y precio del vehículo. La interfaz es sencilla y está diseñada para ofrecer una experiencia de usuario fluida y eficiente.
+## Demo en Vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Puede acceder a una versión en vivo de la aplicación en: [Rent-A-Car Live Demo](https://effortless-gaufre-f29b48.netlify.app/)
+## Tecnologías
+
+- React
+- Vite
+- Redux (para el manejo del estado)
+- Styled Components (para el estilo de los componentes)
+
+## Instalación
+
+Para comenzar a utilizar este proyecto en su entorno local, siga los siguientes pasos:
+
+1. **Clonar el repositorio:**
+   ```
+   git clone https://github.com/vicentperezv/rent-a-car.git
+   cd rent-a-car
+   ```
+
+2. **Instalar dependencias:**
+
+Asegúrese de tener `npm` y `Node.js` instalados en su máquina. Luego ejecute:
+   ```
+  npm install
+   ```
+o si prefiere usar `yarn`:
+```
+yarn install
+```
+
+
+3. **Ejecutar el proyecto:**
+
+Una vez que las dependencias están instaladas, puede iniciar el proyecto en modo de desarrollo:
+```
+npm run dev
+```
+o con `yarn`:
+```
+yarn dev
+```
+Esto iniciará el servidor local y el proyecto estará disponible en `http://localhost:5173`.
+## Uso
+
+Una vez que el servidor está en ejecución, visite `http://localhost:5173` en su navegador para comenzar a utilizar la aplicación. Podrá ver un formulario para ingresar los datos del automóvil y una lista de los automóviles que ya han sido ingresados.
+
+
+
